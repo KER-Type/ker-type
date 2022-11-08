@@ -1,0 +1,50 @@
+\hypertarget{classClient}{}\doxysection{Client Class Reference}
+\label{classClient}\index{Client@{Client}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classClient_af8fb4c9830f243fb9daf4ee63e439a58}\label{classClient_af8fb4c9830f243fb9daf4ee63e439a58}} 
+{\bfseries Client} (boost\+::asio\+::io\+\_\+context \&asio\+Context, char $\ast$$\ast$user\+Inputs)
+\item 
+\mbox{\Hypertarget{classClient_a722f207cfe8e2f4c9158edc83c36dc0b}\label{classClient_a722f207cfe8e2f4c9158edc83c36dc0b}} 
+udp\+::socket \& {\bfseries get\+Socket\+U\+DP} ()
+\item 
+\mbox{\Hypertarget{classClient_ac687d5c8baeb7733297c14c2a39c6d49}\label{classClient_ac687d5c8baeb7733297c14c2a39c6d49}} 
+udp\+::endpoint \& {\bfseries get\+Endpoint\+U\+DP} ()
+\item 
+void \mbox{\hyperlink{classClient_a30cb762377742ba7a5b423499cc8c3f1}{do\+Receive}} ()
+\begin{DoxyCompactList}\small\item\em Receives a message from the server. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classClient_ab37b8a47c7b0e0f0bcd2bb7fc8b00b4e}{do\+Send}} (std\+::string message)
+\begin{DoxyCompactList}\small\item\em Sends a message to the server. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classClient_ae86a0dafc6aea89689f9f837344ef38f}\label{classClient_ae86a0dafc6aea89689f9f837344ef38f}} 
+std\+::list$<$ std\+::string $>$ \& {\bfseries get\+Messages\+List} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classClient_a30cb762377742ba7a5b423499cc8c3f1}\label{classClient_a30cb762377742ba7a5b423499cc8c3f1}} 
+\index{Client@{Client}!doReceive@{doReceive}}
+\index{doReceive@{doReceive}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{doReceive()}{doReceive()}}
+{\footnotesize\ttfamily void Client\+::do\+Receive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Receives a message from the server. 
+
+Loop that receives messages from the server. \mbox{\Hypertarget{classClient_ab37b8a47c7b0e0f0bcd2bb7fc8b00b4e}\label{classClient_ab37b8a47c7b0e0f0bcd2bb7fc8b00b4e}} 
+\index{Client@{Client}!doSend@{doSend}}
+\index{doSend@{doSend}!Client@{Client}}
+\doxysubsubsection{\texorpdfstring{doSend()}{doSend()}}
+{\footnotesize\ttfamily void Client\+::do\+Send (\begin{DoxyParamCaption}\item[{std\+::string}]{message }\end{DoxyParamCaption})}
+
+
+
+Sends a message to the server. 
+
+Loop that sends a message to the server. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Client/include/Client.\+hpp\item 
+Client/Client.\+cpp\end{DoxyCompactItemize}

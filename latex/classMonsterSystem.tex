@@ -1,0 +1,109 @@
+\hypertarget{classMonsterSystem}{}\doxysection{Monster\+System Class Reference}
+\label{classMonsterSystem}\index{MonsterSystem@{MonsterSystem}}
+
+
+Inheritance diagram for Monster\+System\+:
+% FIG 0
+
+
+Collaboration diagram for Monster\+System\+:
+% FIG 1
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classMonsterSystem_a0c805ad580d042e5ed79b62863cbd7c7}\label{classMonsterSystem_a0c805ad580d042e5ed79b62863cbd7c7}} 
+{\bfseries Monster\+System} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window)
+\item 
+void \mbox{\hyperlink{classMonsterSystem_a815b4f1ec8068bb775fe5d98a1db3d91}{run}} (std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&entities)
+\begin{DoxyCompactList}\small\item\em Monster System function Launch and call all function related to the monsters. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonsterSystem_a6ee6c943cf53efc2ed6897f17d4d7bb6}{fill\+Queue}} (std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&entities)
+\begin{DoxyCompactList}\small\item\em Fill the queue of action fill the queue with action \mbox{[}UP, D\+O\+WN, L\+E\+FT, R\+I\+G\+HT, S\+H\+O\+OT\mbox{]}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonsterSystem_adb26b6960a83f7192f0433b91aa3cbb8}{handle\+Events}} (std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&entities)
+\begin{DoxyCompactList}\small\item\em Treat the queue of action Execute the function which are related to this action\mbox{[}UP, D\+O\+WN, L\+E\+FT, R\+I\+G\+HT, S\+H\+O\+OT\mbox{]}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonsterSystem_a79d491a4d2ee7a54284b183b2e5e290b}{create\+Bullet}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classCompPosition}{Comp\+Position}} $>$ position, std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&entities)
+\begin{DoxyCompactList}\small\item\em Create a bullet ~\newline
+ Function that creates the entity of one bullet for Monster characterr. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMonsterSystem_a67946467ef82072e68190175a2302c25}{check\+Monster}} (std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&entities)
+\begin{DoxyCompactList}\small\item\em Check the status of monster entity. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classMonsterSystem_a0c805ad580d042e5ed79b62863cbd7c7}\label{classMonsterSystem_a0c805ad580d042e5ed79b62863cbd7c7}} 
+{\bfseries Monster\+System} (std\+::shared\+\_\+ptr$<$ sf\+::\+Render\+Window $>$ window)
+\item 
+\mbox{\Hypertarget{classMonsterSystem_a815b4f1ec8068bb775fe5d98a1db3d91}\label{classMonsterSystem_a815b4f1ec8068bb775fe5d98a1db3d91}} 
+void {\bfseries run} (std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&entities)
+\item 
+\mbox{\Hypertarget{classMonsterSystem_a6ee6c943cf53efc2ed6897f17d4d7bb6}\label{classMonsterSystem_a6ee6c943cf53efc2ed6897f17d4d7bb6}} 
+void {\bfseries fill\+Queue} (std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&entities)
+\item 
+\mbox{\Hypertarget{classMonsterSystem_adb26b6960a83f7192f0433b91aa3cbb8}\label{classMonsterSystem_adb26b6960a83f7192f0433b91aa3cbb8}} 
+void {\bfseries handle\+Events} (std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&entities)
+\item 
+\mbox{\Hypertarget{classMonsterSystem_a79d491a4d2ee7a54284b183b2e5e290b}\label{classMonsterSystem_a79d491a4d2ee7a54284b183b2e5e290b}} 
+void {\bfseries create\+Bullet} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classCompPosition}{Comp\+Position}} $>$ position, std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&entities)
+\item 
+\mbox{\Hypertarget{classMonsterSystem_a67946467ef82072e68190175a2302c25}\label{classMonsterSystem_a67946467ef82072e68190175a2302c25}} 
+void {\bfseries check\+Monster} (std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&entities)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classMonsterSystem_a67946467ef82072e68190175a2302c25}\label{classMonsterSystem_a67946467ef82072e68190175a2302c25}} 
+\index{MonsterSystem@{MonsterSystem}!checkMonster@{checkMonster}}
+\index{checkMonster@{checkMonster}!MonsterSystem@{MonsterSystem}}
+\doxysubsubsection{\texorpdfstring{checkMonster()}{checkMonster()}}
+{\footnotesize\ttfamily void Monster\+System\+::check\+Monster (\begin{DoxyParamCaption}\item[{std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&}]{entities }\end{DoxyParamCaption})}
+
+
+
+Check the status of monster entity. 
+
+Takes a list of entity as parameters, check for all of the monster entity if they are alive or dead and update their status. \mbox{\Hypertarget{classMonsterSystem_a79d491a4d2ee7a54284b183b2e5e290b}\label{classMonsterSystem_a79d491a4d2ee7a54284b183b2e5e290b}} 
+\index{MonsterSystem@{MonsterSystem}!createBullet@{createBullet}}
+\index{createBullet@{createBullet}!MonsterSystem@{MonsterSystem}}
+\doxysubsubsection{\texorpdfstring{createBullet()}{createBullet()}}
+{\footnotesize\ttfamily void Monster\+System\+::create\+Bullet (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classCompPosition}{Comp\+Position}} $>$}]{position,  }\item[{std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&}]{entities }\end{DoxyParamCaption})}
+
+
+
+Create a bullet ~\newline
+ Function that creates the entity of one bullet for Monster characterr. 
+
+Takes a list of entity as parameter, add an entity that represent an bullet. \mbox{\Hypertarget{classMonsterSystem_a6ee6c943cf53efc2ed6897f17d4d7bb6}\label{classMonsterSystem_a6ee6c943cf53efc2ed6897f17d4d7bb6}} 
+\index{MonsterSystem@{MonsterSystem}!fillQueue@{fillQueue}}
+\index{fillQueue@{fillQueue}!MonsterSystem@{MonsterSystem}}
+\doxysubsubsection{\texorpdfstring{fillQueue()}{fillQueue()}}
+{\footnotesize\ttfamily void Monster\+System\+::fill\+Queue (\begin{DoxyParamCaption}\item[{std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&}]{entities }\end{DoxyParamCaption})}
+
+
+
+Fill the queue of action fill the queue with action \mbox{[}UP, D\+O\+WN, L\+E\+FT, R\+I\+G\+HT, S\+H\+O\+OT\mbox{]}. 
+
+Takes a list of entity as parameters, check for all of the entity if they have the Monster Component, and apply the parser function. \mbox{\Hypertarget{classMonsterSystem_adb26b6960a83f7192f0433b91aa3cbb8}\label{classMonsterSystem_adb26b6960a83f7192f0433b91aa3cbb8}} 
+\index{MonsterSystem@{MonsterSystem}!handleEvents@{handleEvents}}
+\index{handleEvents@{handleEvents}!MonsterSystem@{MonsterSystem}}
+\doxysubsubsection{\texorpdfstring{handleEvents()}{handleEvents()}}
+{\footnotesize\ttfamily void Monster\+System\+::handle\+Events (\begin{DoxyParamCaption}\item[{std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&}]{entities }\end{DoxyParamCaption})}
+
+
+
+Treat the queue of action Execute the function which are related to this action\mbox{[}UP, D\+O\+WN, L\+E\+FT, R\+I\+G\+HT, S\+H\+O\+OT\mbox{]}. 
+
+Takes a list of entity as parameters, check for all of the entity if they have the Monster Component, execute the function. \mbox{\Hypertarget{classMonsterSystem_a815b4f1ec8068bb775fe5d98a1db3d91}\label{classMonsterSystem_a815b4f1ec8068bb775fe5d98a1db3d91}} 
+\index{MonsterSystem@{MonsterSystem}!run@{run}}
+\index{run@{run}!MonsterSystem@{MonsterSystem}}
+\doxysubsubsection{\texorpdfstring{run()}{run()}}
+{\footnotesize\ttfamily void Monster\+System\+::run (\begin{DoxyParamCaption}\item[{std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&}]{entities }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Monster System function Launch and call all function related to the monsters. 
+
+Takes a list of entity in parameters and apply the following function to the list. 
+
+Implements \mbox{\hyperlink{classISystem}{I\+System}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Client/include/Monster\+System.\+hpp\item 
+Client/src/Monster\+System.\+cpp\end{DoxyCompactItemize}

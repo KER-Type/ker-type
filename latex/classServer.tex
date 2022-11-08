@@ -1,0 +1,85 @@
+\hypertarget{classServer}{}\doxysection{Server Class Reference}
+\label{classServer}\index{Server@{Server}}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structServer_1_1playerData}{player\+Data}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classServer_ade2c31068163ab7bd03335dad3c12039}\label{classServer_ade2c31068163ab7bd03335dad3c12039}} 
+{\bfseries Server} (boost\+::asio\+::io\+\_\+context \&asio\+Context, short port)
+\item 
+void \mbox{\hyperlink{classServer_a2ab4bf43348c542592cf752cf5436466}{do\+Receive}} ()
+\begin{DoxyCompactList}\small\item\em Receives a message from a client. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classServer_aaca1afc66ac872b2a3546525777fe7e1}{do\+Send}} (std\+::size\+\_\+t length)
+\begin{DoxyCompactList}\small\item\em Sends a message to a client. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classServer_a9d560107f56447bed3ad53faa5b3d472}{check\+New\+Client}} ()
+\begin{DoxyCompactList}\small\item\em Checks if a new client is connected. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classServer_a9e5e560c4e57e3b1768f7992154eb3c8}{send\+To\+All}} (std\+::string message)
+\begin{DoxyCompactList}\small\item\em Sends a message to all clients. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classServer_adbe2311f270ce2e3c2a8b4a6f2540c6c}{send\+To\+Client}} (std\+::string message, int id)
+\begin{DoxyCompactList}\small\item\em Sends a message to a specific client. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classServer_aa4b4f8ac68e4f8207540b32509330b6a}\label{classServer_aa4b4f8ac68e4f8207540b32509330b6a}} 
+std\+::list$<$ std\+::pair$<$ int, std\+::string $>$ $>$ \& {\bfseries get\+Messages} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classServer_a9d560107f56447bed3ad53faa5b3d472}\label{classServer_a9d560107f56447bed3ad53faa5b3d472}} 
+\index{Server@{Server}!checkNewClient@{checkNewClient}}
+\index{checkNewClient@{checkNewClient}!Server@{Server}}
+\doxysubsubsection{\texorpdfstring{checkNewClient()}{checkNewClient()}}
+{\footnotesize\ttfamily void Server\+::check\+New\+Client (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Checks if a new client is connected. 
+
+Check if a new client has logged in the server. \mbox{\Hypertarget{classServer_a2ab4bf43348c542592cf752cf5436466}\label{classServer_a2ab4bf43348c542592cf752cf5436466}} 
+\index{Server@{Server}!doReceive@{doReceive}}
+\index{doReceive@{doReceive}!Server@{Server}}
+\doxysubsubsection{\texorpdfstring{doReceive()}{doReceive()}}
+{\footnotesize\ttfamily void Server\+::do\+Receive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Receives a message from a client. 
+
+Loop that receives messages from a client. \mbox{\Hypertarget{classServer_aaca1afc66ac872b2a3546525777fe7e1}\label{classServer_aaca1afc66ac872b2a3546525777fe7e1}} 
+\index{Server@{Server}!doSend@{doSend}}
+\index{doSend@{doSend}!Server@{Server}}
+\doxysubsubsection{\texorpdfstring{doSend()}{doSend()}}
+{\footnotesize\ttfamily void Server\+::do\+Send (\begin{DoxyParamCaption}\item[{std\+::size\+\_\+t}]{length }\end{DoxyParamCaption})}
+
+
+
+Sends a message to a client. 
+
+Loop that sends a message to a client. \mbox{\Hypertarget{classServer_a9e5e560c4e57e3b1768f7992154eb3c8}\label{classServer_a9e5e560c4e57e3b1768f7992154eb3c8}} 
+\index{Server@{Server}!sendToAll@{sendToAll}}
+\index{sendToAll@{sendToAll}!Server@{Server}}
+\doxysubsubsection{\texorpdfstring{sendToAll()}{sendToAll()}}
+{\footnotesize\ttfamily void Server\+::send\+To\+All (\begin{DoxyParamCaption}\item[{std\+::string}]{message }\end{DoxyParamCaption})}
+
+
+
+Sends a message to all clients. 
+
+Takes the message to send as parameter. \mbox{\Hypertarget{classServer_adbe2311f270ce2e3c2a8b4a6f2540c6c}\label{classServer_adbe2311f270ce2e3c2a8b4a6f2540c6c}} 
+\index{Server@{Server}!sendToClient@{sendToClient}}
+\index{sendToClient@{sendToClient}!Server@{Server}}
+\doxysubsubsection{\texorpdfstring{sendToClient()}{sendToClient()}}
+{\footnotesize\ttfamily void Server\+::send\+To\+Client (\begin{DoxyParamCaption}\item[{std\+::string}]{message,  }\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Sends a message to a specific client. 
+
+Takes the message to send and the ID of the target as parameters. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Server/include/Server.\+hpp\item 
+Server/Server.\+cpp\end{DoxyCompactItemize}
