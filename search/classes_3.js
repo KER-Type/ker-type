@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['hitboxpos_46',['hitboxPos',['../structhitboxPos.html',1,'']]]
+  ['hitboxpos_52',['hitboxPos',['../structhitboxPos.html',1,'']]]
 ];

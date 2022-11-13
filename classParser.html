@@ -73,7 +73,7 @@ Collaboration diagram for Parser:</div>
 <div class="dyncontent">
 <div class="center"><img src="classParser__coll__graph.png" border="0" usemap="#Parser_coll__map" alt="Collaboration graph"/></div>
 <map name="Parser_coll__map" id="Parser_coll__map">
-<area shape="rect" title=" " alt="" coords="5,5,108,215"/>
+<area shape="rect" title=" " alt="" coords="5,5,228,288"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -88,6 +88,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a309fe82b2543eeb901959f62e7ee6c30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParser.html#a309fe82b2543eeb901959f62e7ee6c30">clearList</a> ()</td></tr>
 <tr class="memdesc:a309fe82b2543eeb901959f62e7ee6c30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the queue.  <a href="classParser.html#a309fe82b2543eeb901959f62e7ee6c30">More...</a><br /></td></tr>
 <tr class="separator:a309fe82b2543eeb901959f62e7ee6c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a203f4152e211818c065e89ddcb6655ac"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParser.html#a203f4152e211818c065e89ddcb6655ac">getMonsterPathName</a> (std::string fileName)</td></tr>
+<tr class="memdesc:a203f4152e211818c065e89ddcb6655ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the file path to the monster  <a href="classParser.html#a203f4152e211818c065e89ddcb6655ac">More...</a><br /></td></tr>
+<tr class="separator:a203f4152e211818c065e89ddcb6655ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedc0380eab04ce2bd351c2166978b479"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParser.html#aedc0380eab04ce2bd351c2166978b479">getPlayerPathName</a> (std::string fileName)</td></tr>
+<tr class="memdesc:aedc0380eab04ce2bd351c2166978b479"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the file path to the player  <a href="classParser.html#aedc0380eab04ce2bd351c2166978b479">More...</a><br /></td></tr>
+<tr class="separator:aedc0380eab04ce2bd351c2166978b479"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac39f0c87dce472e8bcfe768051fb19de"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParser.html#ac39f0c87dce472e8bcfe768051fb19de">getPlayerTexturesDetails</a> (std::string playerName)</td></tr>
+<tr class="memdesc:ac39f0c87dce472e8bcfe768051fb19de"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the player's textures details  <a href="classParser.html#ac39f0c87dce472e8bcfe768051fb19de">More...</a><br /></td></tr>
+<tr class="separator:ac39f0c87dce472e8bcfe768051fb19de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fb5ef196473dc4605cba1d5c39ebc61"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classParser.html#a5fb5ef196473dc4605cba1d5c39ebc61">getMonsterTexturesDetails</a> (std::string playerName)</td></tr>
+<tr class="memdesc:a5fb5ef196473dc4605cba1d5c39ebc61"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the Monster's textures details  <a href="classParser.html#a5fb5ef196473dc4605cba1d5c39ebc61">More...</a><br /></td></tr>
+<tr class="separator:a5fb5ef196473dc4605cba1d5c39ebc61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cd8e7044914f2476f98f03f3299aa79"><td class="memItemLeft" align="right" valign="top"><a id="a9cd8e7044914f2476f98f03f3299aa79"></a>
 std::queue&lt; Action &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>monster</b> (std::string FileName)</td></tr>
 <tr class="separator:a9cd8e7044914f2476f98f03f3299aa79"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -97,6 +109,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>lexeur</b> (std::stri
 <tr class="memitem:a309fe82b2543eeb901959f62e7ee6c30"><td class="memItemLeft" align="right" valign="top"><a id="a309fe82b2543eeb901959f62e7ee6c30"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>clearList</b> ()</td></tr>
 <tr class="separator:a309fe82b2543eeb901959f62e7ee6c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6c1503d5b459a231227e22a4b450aec"><td class="memItemLeft" align="right" valign="top"><a id="ab6c1503d5b459a231227e22a4b450aec"></a>
+std::list&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getMonsterWave</b> (std::string wavePath)</td></tr>
+<tr class="separator:ab6c1503d5b459a231227e22a4b450aec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a309fe82b2543eeb901959f62e7ee6c30"></a>
@@ -119,6 +134,90 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clearList</b> ()</td>
 
 </div>
 </div>
+<a id="a203f4152e211818c065e89ddcb6655ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a203f4152e211818c065e89ddcb6655ac">&#9670;&nbsp;</a></span>getMonsterPathName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Parser::getMonsterPathName </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>fileName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get the file path to the monster </p>
+<p>Function that get the filepath to the monster sprite using a file which has the name of the monster. </p>
+
+</div>
+</div>
+<a id="a5fb5ef196473dc4605cba1d5c39ebc61"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fb5ef196473dc4605cba1d5c39ebc61">&#9670;&nbsp;</a></span>getMonsterTexturesDetails()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; int &gt; Parser::getMonsterTexturesDetails </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>playerName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get the Monster's textures details </p>
+<p>Function that get the textures details of the monster using a file which has the name of the monster. </p>
+
+</div>
+</div>
+<a id="aedc0380eab04ce2bd351c2166978b479"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedc0380eab04ce2bd351c2166978b479">&#9670;&nbsp;</a></span>getPlayerPathName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Parser::getPlayerPathName </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>fileName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get the file path to the player </p>
+<p>Function that get the filepath to the player sprite using a file which has the name of the player. </p>
+
+</div>
+</div>
+<a id="ac39f0c87dce472e8bcfe768051fb19de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac39f0c87dce472e8bcfe768051fb19de">&#9670;&nbsp;</a></span>getPlayerTexturesDetails()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; int &gt; Parser::getPlayerTexturesDetails </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>playerName</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>get the player's textures details </p>
+<p>Function that get the textures details of the player using a file which has the name of the player. </p>
+
+</div>
+</div>
 <a id="aac5a51b1f08a724e5656b9295bb3bda2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aac5a51b1f08a724e5656b9295bb3bda2">&#9670;&nbsp;</a></span>lexeur()</h2>
 
@@ -136,7 +235,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>clearList</b> ()</td>
 </div><div class="memdoc">
 
 <p>Lexer for the AI. </p>
-<p>Runs the game by calling the run method of each system. </p>
+<p>Run the game by calling the run method of each system. </p>
 
 </div>
 </div>

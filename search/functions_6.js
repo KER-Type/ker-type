@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['run_66',['run',['../classGame.html#a1ab78f5ed0d5ea879157357cf2fb2afa',1,'Game::run()'],['../classMonsterSystem.html#a815b4f1ec8068bb775fe5d98a1db3d91',1,'MonsterSystem::run()']]]
+  ['monster_77',['monster',['../classParser.html#a20cd113dca7c3eb2c876e1f2eefbdcae',1,'Parser']]]
 ];

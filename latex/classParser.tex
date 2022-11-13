@@ -7,7 +7,7 @@ Collaboration diagram for Parser\+:
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=157pt]{classParser__coll__graph}
+\includegraphics[width=247pt]{classParser__coll__graph}
 \end{center}
 \end{figure}
 \doxysubsection*{Public Member Functions}
@@ -19,6 +19,14 @@ void \mbox{\hyperlink{classParser_aac5a51b1f08a724e5656b9295bb3bda2}{lexeur}} (s
 \begin{DoxyCompactList}\small\item\em Lexer for the AI. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{classParser_a309fe82b2543eeb901959f62e7ee6c30}{clear\+List}} ()
 \begin{DoxyCompactList}\small\item\em Clears the queue. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classParser_a203f4152e211818c065e89ddcb6655ac}{get\+Monster\+Path\+Name}} (std\+::string file\+Name)
+\begin{DoxyCompactList}\small\item\em get the file path to the monster \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classParser_aedc0380eab04ce2bd351c2166978b479}{get\+Player\+Path\+Name}} (std\+::string file\+Name)
+\begin{DoxyCompactList}\small\item\em get the file path to the player \end{DoxyCompactList}\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classParser_ac39f0c87dce472e8bcfe768051fb19de}{get\+Player\+Textures\+Details}} (std\+::string player\+Name)
+\begin{DoxyCompactList}\small\item\em get the player\textquotesingle{}s textures details \end{DoxyCompactList}\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{classParser_a5fb5ef196473dc4605cba1d5c39ebc61}{get\+Monster\+Textures\+Details}} (std\+::string player\+Name)
+\begin{DoxyCompactList}\small\item\em get the Monster\textquotesingle{}s textures details \end{DoxyCompactList}\item 
 \mbox{\Hypertarget{classParser_a9cd8e7044914f2476f98f03f3299aa79}\label{classParser_a9cd8e7044914f2476f98f03f3299aa79}} 
 std\+::queue$<$ Action $>$ {\bfseries monster} (std\+::string File\+Name)
 \item 
@@ -27,6 +35,9 @@ void {\bfseries lexeur} (std\+::string str)
 \item 
 \mbox{\Hypertarget{classParser_a309fe82b2543eeb901959f62e7ee6c30}\label{classParser_a309fe82b2543eeb901959f62e7ee6c30}} 
 void {\bfseries clear\+List} ()
+\item 
+\mbox{\Hypertarget{classParser_ab6c1503d5b459a231227e22a4b450aec}\label{classParser_ab6c1503d5b459a231227e22a4b450aec}} 
+std\+::list$<$ std\+::string $>$ {\bfseries get\+Monster\+Wave} (std\+::string wave\+Path)
 \end{DoxyCompactItemize}
 
 
@@ -41,7 +52,47 @@ void {\bfseries clear\+List} ()
 
 Clears the queue. 
 
-Clears the queue of the AI. \mbox{\Hypertarget{classParser_aac5a51b1f08a724e5656b9295bb3bda2}\label{classParser_aac5a51b1f08a724e5656b9295bb3bda2}} 
+Clears the queue of the AI. \mbox{\Hypertarget{classParser_a203f4152e211818c065e89ddcb6655ac}\label{classParser_a203f4152e211818c065e89ddcb6655ac}} 
+\index{Parser@{Parser}!getMonsterPathName@{getMonsterPathName}}
+\index{getMonsterPathName@{getMonsterPathName}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{getMonsterPathName()}{getMonsterPathName()}}
+{\footnotesize\ttfamily std\+::string Parser\+::get\+Monster\+Path\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+get the file path to the monster 
+
+Function that get the filepath to the monster sprite using a file which has the name of the monster. \mbox{\Hypertarget{classParser_a5fb5ef196473dc4605cba1d5c39ebc61}\label{classParser_a5fb5ef196473dc4605cba1d5c39ebc61}} 
+\index{Parser@{Parser}!getMonsterTexturesDetails@{getMonsterTexturesDetails}}
+\index{getMonsterTexturesDetails@{getMonsterTexturesDetails}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{getMonsterTexturesDetails()}{getMonsterTexturesDetails()}}
+{\footnotesize\ttfamily std\+::vector$<$ int $>$ Parser\+::get\+Monster\+Textures\+Details (\begin{DoxyParamCaption}\item[{std\+::string}]{player\+Name }\end{DoxyParamCaption})}
+
+
+
+get the Monster\textquotesingle{}s textures details 
+
+Function that get the textures details of the monster using a file which has the name of the monster. \mbox{\Hypertarget{classParser_aedc0380eab04ce2bd351c2166978b479}\label{classParser_aedc0380eab04ce2bd351c2166978b479}} 
+\index{Parser@{Parser}!getPlayerPathName@{getPlayerPathName}}
+\index{getPlayerPathName@{getPlayerPathName}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{getPlayerPathName()}{getPlayerPathName()}}
+{\footnotesize\ttfamily std\+::string Parser\+::get\+Player\+Path\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{file\+Name }\end{DoxyParamCaption})}
+
+
+
+get the file path to the player 
+
+Function that get the filepath to the player sprite using a file which has the name of the player. \mbox{\Hypertarget{classParser_ac39f0c87dce472e8bcfe768051fb19de}\label{classParser_ac39f0c87dce472e8bcfe768051fb19de}} 
+\index{Parser@{Parser}!getPlayerTexturesDetails@{getPlayerTexturesDetails}}
+\index{getPlayerTexturesDetails@{getPlayerTexturesDetails}!Parser@{Parser}}
+\doxysubsubsection{\texorpdfstring{getPlayerTexturesDetails()}{getPlayerTexturesDetails()}}
+{\footnotesize\ttfamily std\+::vector$<$ int $>$ Parser\+::get\+Player\+Textures\+Details (\begin{DoxyParamCaption}\item[{std\+::string}]{player\+Name }\end{DoxyParamCaption})}
+
+
+
+get the player\textquotesingle{}s textures details 
+
+Function that get the textures details of the player using a file which has the name of the player. \mbox{\Hypertarget{classParser_aac5a51b1f08a724e5656b9295bb3bda2}\label{classParser_aac5a51b1f08a724e5656b9295bb3bda2}} 
 \index{Parser@{Parser}!lexeur@{lexeur}}
 \index{lexeur@{lexeur}!Parser@{Parser}}
 \doxysubsubsection{\texorpdfstring{lexeur()}{lexeur()}}
@@ -51,7 +102,7 @@ Clears the queue of the AI. \mbox{\Hypertarget{classParser_aac5a51b1f08a724e5656
 
 Lexer for the AI. 
 
-Runs the game by calling the run method of each system. \mbox{\Hypertarget{classParser_a20cd113dca7c3eb2c876e1f2eefbdcae}\label{classParser_a20cd113dca7c3eb2c876e1f2eefbdcae}} 
+Run the game by calling the run method of each system. \mbox{\Hypertarget{classParser_a20cd113dca7c3eb2c876e1f2eefbdcae}\label{classParser_a20cd113dca7c3eb2c876e1f2eefbdcae}} 
 \index{Parser@{Parser}!monster@{monster}}
 \index{monster@{monster}!Parser@{Parser}}
 \doxysubsubsection{\texorpdfstring{monster()}{monster()}}

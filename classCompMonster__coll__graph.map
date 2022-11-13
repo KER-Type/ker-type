@@ -1,5 +1,5 @@
 <map id="CompMonster" name="CompMonster">
-<area shape="rect" id="node1" title=" " alt="" coords="17,373,167,553"/>
+<area shape="rect" id="node1" title=" " alt="" coords="17,373,167,583"/>
 <area shape="rect" id="node2" href="$classComponents.html" title=" " alt="" coords="5,175,179,325"/>
 <area shape="rect" id="node3" href="$classECS_1_1IComponent.html" title=" " alt="" coords="5,5,179,127"/>
 </map>

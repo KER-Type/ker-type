@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['sendtoall_67',['sendToAll',['../classServer.html#a9e5e560c4e57e3b1768f7992154eb3c8',1,'Server']]],
-  ['sendtoclient_68',['sendToClient',['../classServer.html#adbe2311f270ce2e3c2a8b4a6f2540c6c',1,'Server']]]
+  ['run_78',['run',['../classGame.html#a1ab78f5ed0d5ea879157357cf2fb2afa',1,'Game::run()'],['../classMonsterSystem.html#a815b4f1ec8068bb775fe5d98a1db3d91',1,'MonsterSystem::run()']]]
 ];
