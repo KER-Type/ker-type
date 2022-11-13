@@ -74,7 +74,8 @@ Summary</h2>
 <li><a href="#Plateforms">Plateforms</a></li>
 <li><a href="#Build">Build</a></li>
 <li><a href="#Usage">Usage</a></li>
-<li><a href="#License">License</a></li>
+<li><a href="#Contribute">Contribute</a></li>
+<li><a href="#Documentation">Documentation</a></li>
 </ol>
 <p><a class="anchor" id="What-is-R-Type"></a></p>
 <h1><a class="anchor" id="autotoc_md2"></a>
@@ -106,19 +107,41 @@ Build</h1>
 <div class="line">cd build</div>
 <div class="line">conan install .. --build=missing</div>
 <div class="line">cmake ..</div>
-<div class="line">cmake --build . -config=release</div>
-</div><!-- fragment --><p><a class="anchor" id="Usage"></a></p>
+<div class="line">cmake --build . --config=release</div>
+</div><!-- fragment --><p>To create an archive with the game, you can run: </p><div class="fragment"><div class="line">cpack CPackConfig.cmake</div>
+</div><!-- fragment --><p>On windows, if you can't build the installer, you should try installing NSIS</p>
+<p><a class="anchor" id="Usage"></a></p>
 <h1><a class="anchor" id="autotoc_md7"></a>
 Usage</h1>
 <p>How to play our game: nothing more simple.</p>
 <p>You can move your spaceship using the arrowkey and you can shoot with the spacebar.</p>
 <p>THAT'S ALL !</p>
 <p>YOU CAN PLAY NOW !!</p>
-<p><a class="anchor" id="License"></a></p>
+<p><a class="anchor" id="Contribute"></a></p>
 <h1><a class="anchor" id="autotoc_md8"></a>
-License</h1>
-<p><img src="https://user-images.githubusercontent.com/72022812/192752240-221aa566-947d-4ba8-87a0-013d23afa0bd.png" alt="image" class="inline"/></p>
-<p>To the extent possible under law, CJ, T-O, AlexTelles has waived all copyright and related or neighboring rights to this work. </p>
+Contribute</h1>
+<p>To contribute to the project, you can git clone the project: </p><div class="fragment"><div class="line">git@github.com:EpitechPromo2025/B-CPP-500-MAR-5-1-rtype-jeremy.calvo.git</div>
+</div><!-- fragment --><p>You should develop your features on a new branch. when your part of the code is working you can submit your PR (pull request). <br  />
+</p>
+<p>WARNING YOU MUST USE THE FOLLOWING COMMIT CONVENTION:</p>
+<h2><a class="anchor" id="autotoc_md9"></a>
+Types</h2>
+<ul>
+<li><code>refactor</code> Commits, that rewrite/restructure your code, however does not change any behaviour<ul>
+<li><code>perf</code> Commits are special <code>refactor</code> commits, that improve performance</li>
+</ul>
+</li>
+<li><code>style</code> Commits, that do not affect the meaning (white-space, formatting, missing semi-colons, etc)</li>
+<li><code>test</code> Commits, that add missing tests or correcting existing tests</li>
+<li><code>docs</code> Commits, that affect documentation only</li>
+<li><code>build</code> Commits, that affect build components like build tool, ci pipeline, dependencies, project version, ...</li>
+<li><code>ops</code> Commits, that affect operational components like infrastructure, deployment, backup, recovery, ...</li>
+<li><code>chore</code> Miscellaneous commits e.g. modifying <code>.gitignore</code></li>
+</ul>
+<p><a class="anchor" id="Documentation"></a></p>
+<h1><a class="anchor" id="autotoc_md10"></a>
+Documentation</h1>
+<p><a href="https://ker-type.github.io/">Technical Documentation</a> </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->

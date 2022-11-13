@@ -72,14 +72,20 @@ $(function() {
 Inheritance diagram for MonsterSystem:</div>
 <div class="dyncontent">
 <div class="center"><img src="classMonsterSystem__inherit__graph.png" border="0" usemap="#MonsterSystem_inherit__map" alt="Inheritance graph"/></div>
-<!-- MAP 0 -->
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<map name="MonsterSystem_inherit__map" id="MonsterSystem_inherit__map">
+<area shape="rect" title=" " alt="" coords="5,175,165,443"/>
+<area shape="rect" href="classISystem.html" title=" " alt="" coords="30,5,141,127"/>
+</map>
+</div>
 <div class="dynheader">
 Collaboration diagram for MonsterSystem:</div>
 <div class="dyncontent">
 <div class="center"><img src="classMonsterSystem__coll__graph.png" border="0" usemap="#MonsterSystem_coll__map" alt="Collaboration graph"/></div>
-<!-- MAP 1 -->
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
+<map name="MonsterSystem_coll__map" id="MonsterSystem_coll__map">
+<area shape="rect" title=" " alt="" coords="5,175,165,443"/>
+<area shape="rect" href="classISystem.html" title=" " alt="" coords="30,5,141,127"/>
+</map>
+</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -95,10 +101,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adb26b6960a83f7192f0433b91aa3cbb8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMonsterSystem.html#adb26b6960a83f7192f0433b91aa3cbb8">handleEvents</a> (std::list&lt; std::shared_ptr&lt; <a class="el" href="classEntity.html">Entity</a> &gt;&gt; &amp;entities)</td></tr>
 <tr class="memdesc:adb26b6960a83f7192f0433b91aa3cbb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Treat the queue of action Execute the function which are related to this action[UP, DOWN, LEFT, RIGHT, SHOOT].  <a href="classMonsterSystem.html#adb26b6960a83f7192f0433b91aa3cbb8">More...</a><br /></td></tr>
 <tr class="separator:adb26b6960a83f7192f0433b91aa3cbb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79d491a4d2ee7a54284b183b2e5e290b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMonsterSystem.html#a79d491a4d2ee7a54284b183b2e5e290b">createBullet</a> (std::shared_ptr&lt; <a class="el" href="classCompPosition.html">CompPosition</a> &gt; position, std::list&lt; std::shared_ptr&lt; <a class="el" href="classEntity.html">Entity</a> &gt;&gt; &amp;entities)</td></tr>
-<tr class="memdesc:a79d491a4d2ee7a54284b183b2e5e290b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a bullet <br  />
- Function that creates the entity of one bullet for Monster characterr.  <a href="classMonsterSystem.html#a79d491a4d2ee7a54284b183b2e5e290b">More...</a><br /></td></tr>
-<tr class="separator:a79d491a4d2ee7a54284b183b2e5e290b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2daa54a1098e23ff5084d844208834ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMonsterSystem.html#a2daa54a1098e23ff5084d844208834ca">createBullet</a> (std::shared_ptr&lt; <a class="el" href="classCompPosition.html">CompPosition</a> &gt; position, std::list&lt; std::shared_ptr&lt; <a class="el" href="classEntity.html">Entity</a> &gt;&gt; &amp;entities, std::shared_ptr&lt; <a class="el" href="classCompHitbox.html">CompHitbox</a> &gt; hbxMonster)</td></tr>
+<tr class="memdesc:a2daa54a1098e23ff5084d844208834ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a bullet <br  />
+ Function that creates the entity of one bullet for Monster characterr.  <a href="classMonsterSystem.html#a2daa54a1098e23ff5084d844208834ca">More...</a><br /></td></tr>
+<tr class="separator:a2daa54a1098e23ff5084d844208834ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67946467ef82072e68190175a2302c25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMonsterSystem.html#a67946467ef82072e68190175a2302c25">checkMonster</a> (std::list&lt; std::shared_ptr&lt; <a class="el" href="classEntity.html">Entity</a> &gt;&gt; &amp;entities)</td></tr>
 <tr class="memdesc:a67946467ef82072e68190175a2302c25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check the status of monster entity.  <a href="classMonsterSystem.html#a67946467ef82072e68190175a2302c25">More...</a><br /></td></tr>
 <tr class="separator:a67946467ef82072e68190175a2302c25"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,8 +149,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>checkMonster</b> (std
 
 </div>
 </div>
-<a id="a79d491a4d2ee7a54284b183b2e5e290b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79d491a4d2ee7a54284b183b2e5e290b">&#9670;&nbsp;</a></span>createBullet()</h2>
+<a id="a2daa54a1098e23ff5084d844208834ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2daa54a1098e23ff5084d844208834ca">&#9670;&nbsp;</a></span>createBullet()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -159,7 +165,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>checkMonster</b> (std
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::list&lt; std::shared_ptr&lt; <a class="el" href="classEntity.html">Entity</a> &gt;&gt; &amp;&#160;</td>
-          <td class="paramname"><em>entities</em>&#160;</td>
+          <td class="paramname"><em>entities</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::shared_ptr&lt; <a class="el" href="classCompHitbox.html">CompHitbox</a> &gt;&#160;</td>
+          <td class="paramname"><em>hbxMonster</em>&#160;</td>
         </tr>
         <tr>
           <td></td>

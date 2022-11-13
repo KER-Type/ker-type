@@ -3,11 +3,23 @@
 
 
 Inheritance diagram for Monster\+System\+:
-% FIG 0
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=200pt]{classMonsterSystem__inherit__graph}
+\end{center}
+\end{figure}
 
 
 Collaboration diagram for Monster\+System\+:
-% FIG 1
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=200pt]{classMonsterSystem__coll__graph}
+\end{center}
+\end{figure}
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -20,7 +32,7 @@ void \mbox{\hyperlink{classMonsterSystem_a6ee6c943cf53efc2ed6897f17d4d7bb6}{fill
 \begin{DoxyCompactList}\small\item\em Fill the queue of action fill the queue with action \mbox{[}UP, D\+O\+WN, L\+E\+FT, R\+I\+G\+HT, S\+H\+O\+OT\mbox{]}. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{classMonsterSystem_adb26b6960a83f7192f0433b91aa3cbb8}{handle\+Events}} (std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&entities)
 \begin{DoxyCompactList}\small\item\em Treat the queue of action Execute the function which are related to this action\mbox{[}UP, D\+O\+WN, L\+E\+FT, R\+I\+G\+HT, S\+H\+O\+OT\mbox{]}. \end{DoxyCompactList}\item 
-void \mbox{\hyperlink{classMonsterSystem_a79d491a4d2ee7a54284b183b2e5e290b}{create\+Bullet}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classCompPosition}{Comp\+Position}} $>$ position, std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&entities)
+void \mbox{\hyperlink{classMonsterSystem_a2daa54a1098e23ff5084d844208834ca}{create\+Bullet}} (std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classCompPosition}{Comp\+Position}} $>$ position, std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&entities, std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classCompHitbox}{Comp\+Hitbox}} $>$ hbx\+Monster)
 \begin{DoxyCompactList}\small\item\em Create a bullet ~\newline
  Function that creates the entity of one bullet for Monster characterr. \end{DoxyCompactList}\item 
 void \mbox{\hyperlink{classMonsterSystem_a67946467ef82072e68190175a2302c25}{check\+Monster}} (std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&entities)
@@ -56,11 +68,11 @@ void {\bfseries check\+Monster} (std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{
 
 Check the status of monster entity. 
 
-Takes a list of entity as parameters, check for all of the monster entity if they are alive or dead and update their status. \mbox{\Hypertarget{classMonsterSystem_a79d491a4d2ee7a54284b183b2e5e290b}\label{classMonsterSystem_a79d491a4d2ee7a54284b183b2e5e290b}} 
+Takes a list of entity as parameters, check for all of the monster entity if they are alive or dead and update their status. \mbox{\Hypertarget{classMonsterSystem_a2daa54a1098e23ff5084d844208834ca}\label{classMonsterSystem_a2daa54a1098e23ff5084d844208834ca}} 
 \index{MonsterSystem@{MonsterSystem}!createBullet@{createBullet}}
 \index{createBullet@{createBullet}!MonsterSystem@{MonsterSystem}}
 \doxysubsubsection{\texorpdfstring{createBullet()}{createBullet()}}
-{\footnotesize\ttfamily void Monster\+System\+::create\+Bullet (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classCompPosition}{Comp\+Position}} $>$}]{position,  }\item[{std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&}]{entities }\end{DoxyParamCaption})}
+{\footnotesize\ttfamily void Monster\+System\+::create\+Bullet (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classCompPosition}{Comp\+Position}} $>$}]{position,  }\item[{std\+::list$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classEntity}{Entity}} $>$$>$ \&}]{entities,  }\item[{std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classCompHitbox}{Comp\+Hitbox}} $>$}]{hbx\+Monster }\end{DoxyParamCaption})}
 
 
 

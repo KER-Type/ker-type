@@ -6,9 +6,10 @@ var searchData=
   ['client_3',['Client',['../classClient.html',1,'']]],
   ['compacceleration_4',['CompAcceleration',['../classCompAcceleration.html',1,'']]],
   ['compdrawable_5',['CompDrawable',['../classCompDrawable.html',1,'']]],
-  ['compmonster_6',['CompMonster',['../classCompMonster.html',1,'']]],
-  ['components_7',['Components',['../classComponents.html',1,'']]],
-  ['compplayer_8',['CompPlayer',['../classCompPlayer.html',1,'']]],
-  ['compposition_9',['CompPosition',['../classCompPosition.html',1,'']]],
-  ['createbullet_10',['createBullet',['../classMonsterSystem.html#a79d491a4d2ee7a54284b183b2e5e290b',1,'MonsterSystem']]]
+  ['comphitbox_6',['CompHitbox',['../classCompHitbox.html',1,'']]],
+  ['compmonster_7',['CompMonster',['../classCompMonster.html',1,'']]],
+  ['components_8',['Components',['../classComponents.html',1,'']]],
+  ['compplayer_9',['CompPlayer',['../classCompPlayer.html',1,'']]],
+  ['compposition_10',['CompPosition',['../classCompPosition.html',1,'']]],
+  ['createbullet_11',['createBullet',['../classMonsterSystem.html#a2daa54a1098e23ff5084d844208834ca',1,'MonsterSystem']]]
 ];
